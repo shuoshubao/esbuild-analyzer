@@ -1,0 +1,6 @@
+/dist
+/docs
+
+*.html
+
+LICENSE
