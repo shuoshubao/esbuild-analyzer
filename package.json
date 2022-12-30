@@ -1,7 +1,7 @@
 {
   "name": "esbuild-analyzer",
   "version": "0.1.2",
-  "description": "a visualizer esbuild analyzer",
+  "description": "A visualizer esbuild analyzer",
   "files": [
     "bin",
     "dist",
