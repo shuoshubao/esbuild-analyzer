@@ -27,8 +27,8 @@
     "analyzer"
   ],
   "scripts": {
-    "start": "esbuild lib/index.js  --outdir=dist --loader:.js=jsx --bundle --watch",
-    "build": "esbuild lib/index.js --outdir=dist --loader:.js=jsx --bundle --minify",
+    "start": "esbuild lib/index.jsx  --outdir=dist --bundle --watch",
+    "build": "esbuild lib/index.jsx --outdir=dist --bundle --minify",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
