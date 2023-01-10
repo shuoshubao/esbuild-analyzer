@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import { ConfigProvider, Layout, Typography, Checkbox, theme } from 'antd'
 import { Resizable } from 're-resizable'
 import * as echarts from 'echarts/core'
-import { map, add } from 'lodash-es'
 import {
   StatsData,
+  AllSize,
   SiderWidthKey,
   CollapsedKey,
   getFileSize,
@@ -122,7 +122,7 @@ const App = () => {
               <Title level={4}>Show chunks:</Title>
               <Checkbox indeterminate={indeterminate} onChange={onCheckAllChange} checked={checkAll}>
                 <Text>All (</Text>
-                <Text strong>{getFileSize(map(Object.values(StatsData), 'bytes').reduce(add, 0))}</Text>
+                <Text strong>{getFileSize(AllSize)}</Text>
                 <Text>)</Text>
                 <Text italic> {chunksList.length}</Text>
               </Checkbox>
