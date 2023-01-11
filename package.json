@@ -17,14 +17,12 @@
   },
   "author": "shuoshubao <759979885@qq.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuoshubao/esbuild-analyzer/issues"
-  },
-  "homepage": "https://github.com/shuoshubao/esbuild-analyzer#readme",
   "keywords": [
     "esbuild",
     "plugin",
-    "analyzer"
+    "analyze",
+    "analyzer",
+    "visualizer"
   ],
   "scripts": {
     "start": "esbuild lib/index.jsx  --outdir=dist --bundle --watch",
