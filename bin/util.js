@@ -35,7 +35,7 @@ const getEsbuildAnalyzerHtml = metafile => {
   const { outputs } = metafile
   return getFileContent('../index.html')
     .replace('dist/index.js', `https://unpkg.com/${name}@${version}/dist/index.js`)
-    .replace('<script src="docs/meta.js">', `<script>window.StatsData = '${deflateData(outputs)}'`)
+    .replace('<script src="docs/StatsData.js">', `<script>window.StatsData = '${deflateData(outputs)}'`)
 }
 
 module.exports = {
