@@ -10,7 +10,7 @@ A visualizer esbuild analyzer
 # Install
 
 ```sh
-npm i D esbuild-analyzer
+npm i -D esbuild-analyzer
 ```
 
 # Usage
